@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js",
+    "start": "GROUP_NAME=MyGroup node app.js",
+    "dev": "GROUP_NAME=MyGroup nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

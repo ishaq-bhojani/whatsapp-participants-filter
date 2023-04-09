@@ -1,7 +1,7 @@
 const { Client, LocalAuth } = require("whatsapp-web.js");
 const qrcode = require("qrcode-terminal");
 
-const myGroupName = ""; // Group name in String
+const myGroupName = process.env.GROUP_NAME; // Group name in String
 
 const participantsToKeep = require('./participants.json'); // Array of participants to keep
 
