@@ -10,3 +10,5 @@ Only Keeps list of user in the groups, all others are kicked out.
 5. Scan the QR code from your Whatsapp
 
 ### After running these only participants who are admin and in particapants.json file will remain in group and all others will be removed.
+
+**NOTE**: I can't guarantee you will not be blocked by using this method, although it has worked for me. WhatsApp does not allow bots or unofficial clients on their platform, so this shouldn't be considered totally safe.
